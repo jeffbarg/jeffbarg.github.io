@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    height: 100%;
+    background-color: black;
+    overflow: hidden;
+}
+.text-container {
+    left: 10%;
+    right: 10%;
+
+    z-index: 2;
+
+    height: 150px;
+    width: 80%;
+
+    position: absolute;
+    
+    top: 50%;
+    margin-top: -75px;
+
+    padding: 15px;
+}
+.text::selection {
+    background-color: pink;
+}
+.text {
+    height: 150px;
+    line-height: 150px;
+    font-size: 100px;   
+
+    font-weight: 100;
+    text-transform: uppercase;
+    overflow: inherit;
+    color: white;
+}
+
+.name > a {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.name > a:hover {
+  color: white;
+}
+
+.name > a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.name > a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+
+.text .blinker {
+    animation: blink 1s steps(5, start) infinite;
+    -webkit-animation: blink 1s steps(5, start) infinite;
+}
+
+@keyframes blink {
+    to {
+        visibility: hidden;
+    }
+}
+@-webkit-keyframes blink {
+    to {
+        visibility: hidden;
+    }
+}
+
+.homepage-hero-module {
+    border-right: none;
+    border-left: none;
+    position: relative;
+}
+.no-video .video-container video,
+.touch .video-container video {
+    display: none;
+}
+.no-video .video-container .poster,
+.touch .video-container .poster {
+    display: block !important;
+}
+.video-container {
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: #000;
+}
+
+.video-container .poster img {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+
+.video-container video.fadeIn {
+    filter: blur(70px); 
+    -webkit-filter: blur(70px); 
+}
+.video-container video.fadeIn.animated {
+    transition-property: filter, -webkit-filter;
+    transition-duration: 15s;
+}
+
+.video-container video {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+
+
+}
+.video-container video.fillWidth {
+    width: 100%;
+}
+
+/* Mobile Styles */
+@media(max-width:768px) {
+    .text-container {
+        width: 95% !important;
+        top: 88px !important;
+    }
+
+    video {
+        display: none;
+    }
+}
