@@ -47,9 +47,9 @@ $(document).ready(function() {
     .then(function() { type("r"); return delay(7483 - 7331) } )
     .then(function() { type("g"); return delay(8780 - 7483) } )
     .then(function() { type(" "); return delay(9059 - 8780) } )
-    .then(function() { type("<a href='https://github.com/jeffbarg/'><i class='fa fa-github'></i></a>"); return delay(11083 - 9059) } )
+    .then(function() { type("<a href='https://github.com/jeffbarg/'><i class='icon icon-github'></i></a>"); return delay(11083 - 9059) } )
     .then(function() { type(" "); return delay(11389 - 11083) } )
-    .then(function() { type("<a href='https://www.linkedin.com/in/jeffreybarg'><i class='fa fa-linkedin-square'></i>"); return delay(11400 - 11389) } )
+    .then(function() { type("<a href='https://www.linkedin.com/in/jeffreybarg'><i class='icon icon-linkedin-square'></i>"); return delay(11400 - 11389) } )
     .then(function() { $('.blinker').remove(); })
 
     var isWebkit = 'WebkitAppearance' in document.documentElement.style
