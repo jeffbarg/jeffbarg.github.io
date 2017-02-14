@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/jeffbarg
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://jeffbarg.com
+  * I am jeffbarg (https://keybase.io/jeffbarg) on keybase.
+  * I have a public key ASDw8uqPJNRbiUWeJjuFT1AvIUZ1ryS5temcDt066LB1lgo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120f0f2ea8f24d45b89459e263b854f502f214675af24b9b5e99c0edd3ae8b075960a",
+            "host": "keybase.io",
+            "kid": "0120f0f2ea8f24d45b89459e263b854f502f214675af24b9b5e99c0edd3ae8b075960a",
+            "uid": "987be929d666b5cb249e5287027ad519",
+            "username": "jeffbarg"
+        },
+        "service": {
+            "hostname": "jeffbarg.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.18"
+    },
+    "ctime": 1487045321,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1487045316,
+        "hash": "2ec9cb4f3b6ee77edd43138579f9bb57ab840b6d16a457e78a30b9adee0b3da73aacde6f519b5bb852b63f20108cc6110c2898d7ac44dfac59072edc94cc3b26",
+        "seqno": 887433
+    },
+    "prev": "6d2e5c8f08540478f82f59b015371a9e237392202aea8aa9a64e0fb5c6b99e1e",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg8PLqjyTUW4lFniY7hU9QLyFGda8kubXpnA7dOuiwdZYKp3BheWxvYWTFAvN7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwZjBmMmVhOGYyNGQ0NWI4OTQ1OWUyNjNiODU0ZjUwMmYyMTQ2NzVhZjI0YjliNWU5OWMwZWRkM2FlOGIwNzU5NjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZjBmMmVhOGYyNGQ0NWI4OTQ1OWUyNjNiODU0ZjUwMmYyMTQ2NzVhZjI0YjliNWU5OWMwZWRkM2FlOGIwNzU5NjBhIiwidWlkIjoiOTg3YmU5MjlkNjY2YjVjYjI0OWU1Mjg3MDI3YWQ1MTkiLCJ1c2VybmFtZSI6ImplZmZiYXJnIn0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJqZWZmYmFyZy5jb20iLCJwcm90b2NvbCI6Imh0dHA6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjE4In0sImN0aW1lIjoxNDg3MDQ1MzIxLCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0ODcwNDUzMTYsImhhc2giOiIyZWM5Y2I0ZjNiNmVlNzdlZGQ0MzEzODU3OWY5YmI1N2FiODQwYjZkMTZhNDU3ZTc4YTMwYjlhZGVlMGIzZGE3M2FhY2RlNmY1MTliNWJiODUyYjYzZjIwMTA4Y2M2MTEwYzI4OThkN2FjNDRkZmFjNTkwNzJlZGM5NGNjM2IyNiIsInNlcW5vIjo4ODc0MzN9LCJwcmV2IjoiNmQyZTVjOGYwODU0MDQ3OGY4MmY1OWIwMTUzNzFhOWUyMzczOTIyMDJhZWE4YWE5YTY0ZTBmYjVjNmI5OWUxZSIsInNlcW5vIjo5LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQPSdukl1AfFR8hDp3Aelo9nWXLRfJya5GTvMo1BoKE8A2o4xT2zWqpyZH69fL2zmPIt3ncfLUGJYG8bod1wubQGoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCBVQ80Y74hGfszonAR7kH7EFrlA1yl+LHMNyigxjwHHEKN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jeffbarg
+
+==================================================================
